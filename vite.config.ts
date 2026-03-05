@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: 'https://mishytka228mi2900-hub.github.io/TGAPPP/', 
   plugins: [
     react(),
     tailwindcss(),
